@@ -51,9 +51,7 @@ function estadoAtual() {
         marcha = "4ª Marcha"
     } else if (velocidade >= 61) {
         marcha = "5ª Marcha"
-    } else {
-        marcha = "Neutro" // Velocidade menor que 10
-    }
+    } 
 
     return `A velocidade do carro é: ${velocidade} km/h na marcha ${marcha}`
 }
